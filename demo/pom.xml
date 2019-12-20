@@ -49,16 +49,15 @@
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>libs-local-release</name>
-        <url>http://localhost:8081/artifactory/libs-local-release</url>
+        <name>libs-release-local</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
     
     <snapshotRepository>
         <id>snapshots</id>
-         <name>libs-local-snapshot</name>
-          <url>http://localhost:8081/artifactory/libs-local-snapshot</url>
+         <name>libs-snapshot-local</name>
+          <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-    
 </distributionManagement>
 
 </project>
